@@ -22,8 +22,12 @@ def main_menu():
             ],
             [
                 InlineKeyboardButton(
-                    text="💰 برداشت",
-                    callback_data="withdraw"
+                    text="🎁 دریافت گیفت",
+                    callback_data="gifts"
+                ),
+                InlineKeyboardButton(
+                    text="🎉 پاداش روزانه",
+                    callback_data="daily"
                 )
             ],
             [
@@ -33,4 +37,4 @@ def main_menu():
                 )
             ]
         ]
-              )
+    )
